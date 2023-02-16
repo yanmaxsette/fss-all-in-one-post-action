@@ -2580,7 +2580,6 @@ Resources:
     Type: AWS::Lambda::Function
     Properties:
       Runtime: python3.8
-      Timeout: 500
       Handler: index.lambda_handler
       Code:
         ZipFile: |
